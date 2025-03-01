@@ -4,7 +4,7 @@ import AboutPage from "./pages/AboutPage";
 import NewNav from "./components/NewNav";
 import SingleGamePage from "./pages/SingleGamePage";
 
-//import Home from "./pages/Home";
+import Home from "./pages/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import { ToastContainer } from "react-toastify";
@@ -22,6 +22,7 @@ function App() {
         </Routes>
       </Router>
       <ToastContainer />
+      {/* <Home /> */}
     </div>
   );
 }
